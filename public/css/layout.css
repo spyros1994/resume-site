@@ -849,6 +849,11 @@ call-to-action .button {
 	float: left;
    width: 26%;
 }
+#submitButton{
+position: absolute;
+margin-left: 48%;
+
+}
 #contact input,
 #contact textarea,
 #contact select {

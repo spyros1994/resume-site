@@ -12,7 +12,6 @@ class Contact extends Component {
       };
   
       this.handleSubmit = this.handleSubmit.bind(this);
-      this.resetForm = this.resetForm.bind(this);
       this.handleChange = this.handleChange.bind(this);
     }
   
@@ -31,17 +30,16 @@ class Contact extends Component {
         'template_9m53emr',
          templateParams,
         'user_gXMtAHyHfX8VDrBbP3mD4'
-       ) 
-       this.resetForm();
+       )
+       this.setState({
+         contactName: '',
+         contactEmail: '',
+         contactSubject: '',
+         contactMessage: ''
+       }); 
+      e.target.reset();
       };    
-       resetForm() {
-         this.setState({
-           name: '',
-           email: '',
-           subject: '',
-           message: '',
-         });
-       }
+       
      
        handleChange(event) {
          this.setState({ [event.target.name]: event.target.value });
@@ -107,7 +105,7 @@ class Contact extends Component {
                      <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" onChange={this.handleChange}></textarea>
                   </div>
 
-                  <div>
+                  <div id="submitButton">
                      <button type="submit" >Submit</button>
                    
                   </div>
@@ -121,40 +119,7 @@ class Contact extends Component {
            </div>
 
 
-            <aside className="four columns footer-widgets">
-               <div className="widget widget_conta0ct">
-
-					   <h4>Address and Phone</h4>
-					   <p className="address">
-						   {name}<br />
-						   {street} <br />
-						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
-					   </p>
-				   </div>
-
-               <div className="widget widget_tweets">
-                  <h4 className="widget-title">Latest Tweets</h4>
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
-                  </ul>
-		         </div>
-            </aside>
+            
       </div>
    </section>
     );

@@ -2,10 +2,9 @@
   "main": {
     "name":"Spyros Drimalas",
     "occupation":"(Your Occupation Here)",
-    "description":"I am currently a student at the University of Peloponnese and I am waiting for my graduation. I completed my internship in web development.I am passionate with java programming language and I really like to use new technologies in order to involve my self through learning",
+    "description":"About to graduate. Just completed my internship in Web Development. Trained in Technologies such as Spring Boot, Docker and Kubernetes. Passionate with Java Programming and with an ability to comprehend and solve technical problems. Hard work and efficient communication is the combination for success",
     "image":"profilepic.png",
-    "bio":"I am currently a student at the University of Peloponnese and I am waiting for my graduation. I completed my internship in web development. During my internship I trained in many top technologies such as spring boot, docker and kubernetes. I am passionate with java programming language and I really like to use new technologies in order to involve my self through learning. I am a team-player and I believe that the good communication between teammates and hardworking is a really important combination of success.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bio":"About to graduate. Just completed my internship in Web Development. Trained in Technologies such as Spring Boot, Docker and Kubernetes. Passionate with Java Programming and with an ability to comprehend and solve technical problems. Hard work and efficient communication is the combination for success",
     "email": "drimalas.spyros@gmail.com",
     "address":{
       "city":"Ano Liosia",
@@ -51,7 +50,7 @@
         "company":"Cognity",
         "title":"Internship",
         "years":"February 2020 - September 2020",
-        "description":"During my internship i trained in many top technologies such as spring boot, dockers and k8s. I participated in a team with a very good level of knowledge about these technologies, something that help me to evolve my self and become quickly an active member of the team.As a member of the team i had many responsibilities like development of api’s, the writing of documentation which described the architecture of services at a high level, deploying services in servers in order to perform different types of testing e.g. UAT"
+        "description":"During my internship I was trained in many top technologies such as Spring Boot, Dockers and K8s. I was a member of a high quality team with a depth of knowledge on the aforementioned technologies. As an active member of the team, my responsibilities ranged from development of APIs to deploying services in servers for different types of testing, e.g. UAT. Moreover, I was in charge of writing the documentation which comprised the High Level architecture of the services."
       },
       {
         "company":"Alexis Nikitas",
@@ -85,7 +84,7 @@
     "skills":[
       {
         "name":"Java/SpringBoot",
-        "level":"60%"
+        "level":"65%"
       },
       {
         "name":"Docker",
@@ -96,24 +95,31 @@
         "level":"50%"
       },
       {
+        "name":"Redis",
+        "level":"55%"
+      }, {
+        "name":"Kafka",
+        "level":"40%"
+      },
+      {
         "name":"Git",
         "level":"60%"
       },
       {
         "name":"HTML",
-        "level":"40%"
+        "level":"35%"
       },
       {
         "name":"CSS",
-        "level":"40%"
+        "level":"35%"
       },
       {
         "name":"SQL",
-        "level":"60%"
+        "level":"55%"
       },
       {
         "name":"React",
-        "level":"30%"
+        "level":"20%"
       }
     ]
   },
@@ -126,10 +132,10 @@
         "url":"https://github.com/spyros1994/Pothole_Detector"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Available pharmacies",
+        "category":"An android application where a user can search the available pharmacies in the city of Patras. The application is a simple web crawler that collect data from websites and show the results to the user.",
+        "image":"pharmacies.jpg",
+        "url":"https://github.com/spyros1994/Available_Pharmacies"
       }
     ]
   },
