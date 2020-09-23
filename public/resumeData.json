@@ -1,0 +1,148 @@
+{
+  "main": {
+    "name":"Spyros Drimalas",
+    "occupation":"(Your Occupation Here)",
+    "description":"I am currently a student at the University of Peloponnese and I am waiting for my graduation. I completed my internship in web development.I am passionate with java programming language and I really like to use new technologies in order to involve my self through learning",
+    "image":"profilepic.png",
+    "bio":"I am currently a student at the University of Peloponnese and I am waiting for my graduation. I completed my internship in web development. During my internship I trained in many top technologies such as spring boot, docker and kubernetes. I am passionate with java programming language and I really like to use new technologies in order to involve my self through learning. I am a team-player and I believe that the good communication between teammates and hardworking is a really important combination of success.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "drimalas.spyros@gmail.com",
+    "address":{
+      "city":"Ano Liosia",
+      "state":"Athens",
+      "zip": "13344"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/spyros.messier",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/spyridon-drimalas-506796186/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/spyros1994",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"http://skype.com",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "education":[
+      {
+        "school":"Department of Electrical and computer engineering",
+        "degree":"Bachelor in computer sience",
+        "graduated":"December 2020",
+        "description":"Bachelor Thesis: development of IoT (Internet of Things) application based on Arduino/Android, using sensors and GPS:  The system aims at the detection and evaluation of road infrastructure botcheries and potholes using Arduino's sensors and GPS. The user evaluates the aforementioned botcheries and potholes using an Android application. The application uses an accelerometer sensor to recognize the potholes . After the evaluation from the user, all the data are stored automatically to an online IoT platform(ThingSpeak). The user can use the android application to store on the same platform all the data that the arduino system has saved on the external storage. The communication between the smartphone and the android uno is via a OnTheGo cable."
+      }
+    ],
+    "work":[
+      {
+        "company":"Cognity",
+        "title":"Internship",
+        "years":"February 2020 - September 2020",
+        "description":"During my internship i trained in many top technologies such as spring boot, dockers and k8s. I participated in a team with a very good level of knowledge about these technologies, something that help me to evolve my self and become quickly an active member of the team.As a member of the team i had many responsibilities like development of api’s, the writing of documentation which described the architecture of services at a high level, deploying services in servers in order to perform different types of testing e.g. UAT"
+      },
+      {
+        "company":"Alexis Nikitas",
+        "title":"Electrician Assistantr",
+        "years":"July 2019 - September 2020",
+        "description":"Electrician Assistant in electrical installations at Alexis Nikitas (plus maintenance, repair and grounding) in houses and business buildings. "
+      },
+      {
+        "company":"Spathis L.P",
+        "title":"Electrician Assistantr",
+        "years":"October 2016 - June 2019",
+        "description":"Electrician Assistant in electrical installations at Spathis L.P (plus maintenance and repair) in houses and business buildings."
+      },
+      {
+        "company":"Souvlaki me Meraki",
+        "title":"Delivery man",
+        "years":"March 2015 - May 2016"
+      },
+      {
+        "company":"Kantina Rio",
+        "title":"Delivery man",
+        "years":"September 2013 - August 2014"
+      },
+      {
+        "company":"GLAFKOS B.C",
+        "title":"Sports parquet floor installation",
+        "years":"February 2013 - May 2013",
+        "description":"Sports parquet floor installation at GLAFKOS B.C. (training hall): construction, installation and polishing of parquet floor"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Java/SpringBoot",
+        "level":"60%"
+      },
+      {
+        "name":"Docker",
+        "level":"50%"
+      },
+      {
+        "name":"Kubernetes",
+        "level":"50%"
+      },
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"HTML",
+        "level":"40%"
+      },
+      {
+        "name":"CSS",
+        "level":"40%"
+      },
+      {
+        "name":"SQL",
+        "level":"60%"
+      },
+      {
+        "name":"React",
+        "level":"30%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Pothole_Detector",
+        "category":"Bachelor Thesis: development of IoT (Internet of Things) application based on Arduino/Android, using sensors and GPS:  The system aims at the detection and evaluation of road infrastructure botcheries and potholes using Arduino's sensors and GPS. The user evaluates the aforementioned botcheries and potholes using an Android application. The application uses an accelerometer sensor to recognize the potholes . After the evaluation from the user, all the data are stored automatically to an online IoT platform(ThingSpeak). The user can use the android application to store on the same platform all the data that the arduino system has saved on the external storage. The communication between the smartphone and the android uno is via a OnTheGo cable.",
+        "image":"pothole_detector.jpg",
+        "url":"https://github.com/spyros1994/Pothole_Detector"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
