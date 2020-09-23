@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import * as emailjs from 'emailjs-com';
+import {toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';  
+toast.configure() 
 class Contact extends Component {
    constructor(props) {
       super(props);
@@ -31,6 +34,7 @@ class Contact extends Component {
          templateParams,
         'user_gXMtAHyHfX8VDrBbP3mD4'
        )
+       toast("Message has been send");
        this.setState({
          contactName: '',
          contactEmail: '',
